@@ -1,0 +1,60 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Using Google font Roboto */
+    line-height: 1.6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 70%;
+    max-width: 1200px;
+    /* Set body width to 80% */
+    margin: 0 auto;
+    /* Center align the body */
+    font-size: large;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 110%;
+}
+
+img#fairrogi-logo {
+    float: left;
+    width: 15%;
+    min-width: 100px;
+    height: auto;
+    margin-right: 6.5%;
+    padding-top: 3%;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0 0 20%;
+}
+
+section#scope {
+    font-size: larger;
+}
+
+section ul {
+    margin-left: 13px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+span#first {
+    font-size: 0.3em;
+    line-height: 25%;
+}
