@@ -58,3 +58,7 @@ span#first {
     font-size: 0.3em;
     line-height: 25%;
 }
+
+p {
+    margin-bottom: 20px;
+}
